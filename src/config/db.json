@@ -1,0 +1,16 @@
+{
+    "dev":{
+        "host":"ds137008.mlab.com:37008",
+        "dbname":"node_starter_admin_dev",
+        "user":"mandip_dev",
+        "password":"mandy81o",
+        "dbUrl":"mongodb://mandip_dev:mandy81o@ds137008.mlab.com:37008/node_starter_admin_dev"
+    },
+    "prod":{
+        "host":"ds137008.mlab.com:37008",
+        "dbname":"node_starter_admin",
+        "user":"mandip",
+        "password":"mandy81o",
+        "dbUrl":"mongodb://mandip:mandy81o@ds137008.mlab.com:37008/node_starter_admin"
+    }
+}
