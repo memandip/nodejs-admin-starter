@@ -15,7 +15,7 @@ const UserSchema = new Schema({
     },
     role:{
         type: String,
-        default: 'staff'
+        default: 'user'
     },
     lastActiveTime: { type: Date, default: new Date() },
     hash: String,
@@ -35,7 +35,7 @@ UserSchema.methods.validatePassword = function (password) {
 UserSchema.methods.generateJWT = function () {
     const today = new Date()
     const expirationDate = new Date(today)
-    expirationDate.setDate(today.getDate() + 60)
+    expirationDate.setDate(today.getDate() + 7)
     return jwt.sign({
         email: this.email,
         id: this._id,
