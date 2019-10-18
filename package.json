@@ -1,16 +1,19 @@
 {
   "name": "nodejs-admin-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node JS admin Starter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mandip Tharu",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "engines": {
+    "node":"10.*"
   }
 }
